@@ -1,0 +1,4 @@
+tasks-type:
+  coding: 1 # 值为任务优先级，值相同并行进行，值越大优先级越高
+  research: 1
+  test-case-review: 1

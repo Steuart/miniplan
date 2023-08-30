@@ -1,0 +1,33 @@
+name: 虎盾2.12.4
+priority: 1 # 优先级，数字越大优先级越高
+status: underway # 状态，underway-进行中，finished-完成，pause-暂停
+deadline: "" # 截止日期
+start-date: "" # 开始日期
+tasks:
+  - 测试用例评审:
+      owner: 梁铭浩
+      partners:
+        - 张春云
+        - 潘洪星
+      cost: # 耗时
+        - 0.5d
+      status: working # 任务状态
+      depend-on: "" # 任务依赖
+      deadline: "" #任务截止日期
+  - 虎盾2.12.4修复BUG:
+      owner: 张春云 # 任务负责人
+      staff-time: # 任务工时
+        - 0.5d
+      status: working # 任务状态
+      depend-on: "" # 任务依赖
+      deadline: "" #任务截止日期
+  - 虎盾2.12.4修复BUG:
+      owner: 潘洪星
+      staff-time:
+        - 0.5d
+      status: underway
+      depend-on: ""
+      deadline: ""
+logs:
+  "2023-08-01 11:00:00": ""
+  "2023-09-01 12:00:00": ""

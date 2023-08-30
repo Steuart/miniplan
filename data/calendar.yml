@@ -1,0 +1,15 @@
+working-day:
+  am:
+    start: 09:00
+    end: 12:00
+  pm:
+    start: 13:30
+    end: 18:30
+  work:
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+
+except:
